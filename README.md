@@ -3,7 +3,7 @@ This is a basic REST API using ExpressJS to handle server side requests/routes a
 
 The database is simple and consists of one table called "Employees" in which users can retrieve all employees in the database, retreive one employee in the database based on an Employee ID, or create a new Employee in the database.
 
-##API Endpoints
+## API Endpoints
 
 ###### GET /api/getEmployees
 This endpoint retrieves all the employees that are currently stored in the database in JSON format. Example output for this request is as follows:
@@ -64,7 +64,7 @@ Will return the following response with the newly created employee ID if success
 }
 ```
 
-##Project Setup
+## Project Setup
 
 Before running the server, the database must be set up and properly configured.
 
